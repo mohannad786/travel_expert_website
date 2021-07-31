@@ -1,0 +1,28 @@
+{
+  "name": "node-assi-4-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.3",
+    "mongoose-sanitize": "^1.1.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "random-greetings": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
